@@ -1,0 +1,18 @@
+{
+  "name": "express-auth-starter",
+  "version": "1.0.0",
+  "description": "A minimal Express.js starter with JWT authentication",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
